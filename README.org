@@ -59,8 +59,7 @@ and TODOs.
 
 * Notes
 
-  - While our preference is Perl and JavaScript, you may use any
-    scripting language you are comfortable with in completing this test,
+  - While our preference is Python3, you need to write by Python3 in completing this test,
     provided you supply appropriate documentation; the level of
     verbosity is at your discretion.
   - You may use any open source libraries that you think would be useful
@@ -72,12 +71,6 @@ and TODOs.
     application that can be deployed using the standard tooling:
 
     #+BEGIN_SRC sh
-      # assuming Perl on Mojolicious app in myapp.pl
-      ./myapp.pl daemon
-
-      # assuming NodeJS
-      npm start
-
-      # assuming Ruby on Rails
-      rails server
+      # assuming Django
+      python3 manage.py runserver 127.0.0.1:3000
     #+END_SRC
